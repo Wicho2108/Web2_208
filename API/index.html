@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enviar WhatsApp</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <main class="container">
+    <div class="titulo-con-imagen">
+      <img src="imagen2.webp" alt="Logo WhatsApp" class="logo">
+      <h1>Enviar WhatsApp</h1>
+    </div>
+
+    <form id="whatsappForm">
+      <label for="senderName">Nombre del Remitente:</label>
+      <input type="text" id="senderName" placeholder="" required autocomplete="off" />
+
+      <label for="receiverName">Nombre del Destinatario:</label>
+      <input type="text" id="receiverName" placeholder="" required autocomplete="off" />
+
+      <label for="phoneNumber">Número de Teléfono:</label>
+      <input type="tel" id="phoneNumber" placeholder="" required autocomplete="off" />
+
+      <label for="customMessage">Mensaje Deseado:</label>
+      <input type="text" id="customMessage" placeholder="" required autocomplete="off" />
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="footer">
+     derechos reservados para en wicho 
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
